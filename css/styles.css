@@ -142,7 +142,16 @@
     font-family: 'Amatic SC', helvetica, sans-serif;
     font-size: 2rem;
     text-align: center;
+}
 
+.page-footer-1 {
+    background-color: black !important;
+    padding: 2rem;
+    color: #f2efe8;
+    font-family: 'Amatic SC', helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: -10rem;
 }
 
 .page-emphasis-text {
@@ -190,4 +199,42 @@
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
+}
+
+.jumbo-page{
+    background-color: #b0aac2;
+}
+
+.main-image{
+padding-top: 1.5rem;
+padding-bottom: 2rem;
+}
+
+.place-page-title {
+    color: #22264b;
+    padding-top: 3rem;
+    font-family: 'Amatic SC', helvetica, sans-serif;
+    font-size: 6rem;
+}
+
+.place-text{
+    color: #22264b;
+    margin-top: 4rem;
+    font-family: 'Raleway', 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    padding: 4rem 2rem;
+}
+
+
+
+.place-head-text {
+    color: #22264b;
+    padding-top: 5rem;
+    font-family: 'Amatic SC', helvetica, sans-serif;
+    font-size: 4rem;
+
+}
+
+.caption-link-button-div {
+    text-align: center;
 }
