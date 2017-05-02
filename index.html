@@ -2,18 +2,177 @@
 <html>
     <head>
 <meta charset='utf-8' />
-<title>My HTML Project</title>
+<title>Amazing Places Home</title>
 <link rel='stylesheet' href='css/styles.css'>
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<script src="https://use.fontawesome.com/68e3ac5020.js"></script>
     </head>
-    <body>
-<h1>Hello World</h1>
+    <body class="color">
+      <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <a href="#">
+                <img class="nav-icon press" src="http://res.cloudinary.com/dl37xtqhv/image/upload/co_rgb:f2efe8,e_colorize:100/v1493654369/1493672255_world7_e4mltw.png">
+                <h1 class="navbar-title press"><strong>Amazing Places</strong></h1>
+              </a>
+            </div>
+
+            <div class="col-sm-6 col-sm-offset-2">
+                <ul class="nav navbar-nav nav-pills navbar-right">
+                  <li><a href="index.html"><strong>Home</strong></a></li>
+                  <li><a href="about.html"><strong>About</strong></a></li>
+                  <li><a href="index.html#discover"><strong>Places</strong></a></li>
+                  <li><a href="index.html#contact"><strong>Contact</strong></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <section class="jumbotron"> 
+          <div class="home-page container-fluid">
+
+            <div class="row">
+
+                <div class="col-sm-6">      
+                      <h1 class="home-page-title text-center"><strong>Amazing Places</strong></h1>
+                      <hr class="header-divide"></hr>
+                      <h3 class="home-page-h3 text-center">Discover the world</h3>
+                        <div class="home-page-button-div">
+                          <a href="#discover"><button type="button" class="home-page-button">Discover more</button></a>
+                        </div>
+                 </div>
+                 <div class="home-page-text col-sm-6">
+                    <img class="home-image img-responsive" src="http://res.cloudinary.com/dl37xtqhv/image/upload/c_scale,o_83,q_58,w_1132/v1493661687/knowledge-1052011_1920_drpqux.jpg")>
+                 </div>
+              </div>
+            </div>
+        </div>
+    </section>
 
 
-        <script src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    <section class="main-section" id="discover">
+      <div class="container-fluid">
+          <div class="row">
+             <h1 class="main-header-text text-center"><strong>Featured Places</strong></h1>
+             <hr class="other-divide"></hr>
+           </div>
+           <div class="row">
+               
+               <div class="col-sm-4">
+                   <div class="thumbnail">
+
+                         <div class="caption text-center">
+                           <p class="caption-title"><strong>Lake Baikal, <small>Russia</small></strong></p>
+                             <a href="#"><img class="caption-image img-responsive" src="http://res.cloudinary.com/dl37xtqhv/image/upload/c_scale,h_768,q_39,w_1024/v1493741219/P1010437_bwxqbi.jpg" alt="A picture of Lake Baikal"></a>
+                             <p class="caption-text">Find out more about the deepest lake in the <br>world.</p>
+                             <div class="caption-link-button-div">
+                              <a href="#"><button class="caption-link-button" type="button">Read More</button></a>
+                            </div>
+                         </div>
+                    </div>     
+                </div>
+
+               <div class="col-sm-4">
+                   <div class="thumbnail">
+
+                         <div class="caption text-center">
+                           <p class="caption-title"><strong>Azure Window, <small>Gozo</small></strong></p>
+                             <a href="#">
+                               <img class="caption-image img-responsive" src="http://res.cloudinary.com/dl37xtqhv/image/upload/c_scale,h_768,w_1024/v1493741604/P1010968_i0izwb.jpg" alt="picture of the Azure Window">
+                             </a>
+                           <p class="caption-text">This recently-collapsed geological feature was a spectacular sight.</p>
+                             <div class="caption-link-button-div">
+                              <a href="#"><button class="caption-link-button" type="button">Read More</button></a>
+                            </div>
+                         </div>
+                    </div>     
+                </div>
+
+                <div class="col-sm-4">
+                   <div class="thumbnail">
+                       
+                         <div class="caption text-center">
+                           <p class="caption-title"><strong>Death Valley, <small>USA</small></strong></p>
+                             <a href="#">
+                               <img class="caption-image img-responsive" src="http://res.cloudinary.com/dl37xtqhv/image/upload/c_scale,q_40,w_1024/v1493740893/jIMG_1181_ktvj8o.jpg" alt="A picture of Death Valley">
+                             </a>
+                           <p class="caption-text">High temperatures, amazing scenery and the lowest place in the USA.</p>
+                             <div class="caption-link-button-div">
+                              <a href="#"><button class="caption-link-button" type="button">Read More</button></a>
+                            </div>
+                         </div>
+                    </div>     
+                </div>
+
+
+
+           </div> 
+           <hr class="other-divide-1"></hr>
+        </div>
+      </div>
+    </section>
+
+<section>
+    <div class="contact-section container-fluid" id="contact">
+        <div class="row">
+           <h1 class="main-header-text text-center"><strong>Contact</strong></h1>
+           <hr class="other-divide"></hr>
+        </div> <!--row-->
+        <div class="row">
+            <div class="col-sm-5 col-sm-offset-1">
+              <form action="mailto:yrenfys@gmail.com" method="post" enctype:"text/plain">
+                <div class="form-group">
+                  <label class="form-text" for="usr">Name:</label>
+                     <div class="input-group input-group-lg">
+                       <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                       <input class="form-control" type="text" required placeholder="Name">
+                     </div> <!--name group-->
+                  <label class="form-text"for="email">Email:</label>
+                     <div class="input-group input-group-lg">
+                       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                       <input class="form-control" type="email" required placeholder="name@example.com">
+                     </div> <!--email group-->
+                  <label class="form-text" for="comment">Comment:</label>
+                  <textarea class="form-control input-lg" required placeholder="I want to say..." rows="8"></textarea>
+            
+                    <div class="submit-button-div">
+                      <button class="submit-button" type="submit">Submit</button> 
+                    </div> <!--button--> 
+                </div> <!--form group-->
+            </form>
+        </div> <!--col-->
+          
+        <div class="col-sm-4 col-sm-offset-1">
+            <p class="contact-text">Do you have any great ideas?</p>
+            <p class="contact-text">Do you have any comments?</p>
+            <p class="contact-text">Please use this form to get in touch.</p>
+        </div> <!--col-->
+      </div> <!--row-->
+    </div> <!--container-->
+</section>
+
+
+<footer>
+  <div class="container-fluid page-footer">
+    <div class="row">
+        <p class="footer-text text-center"><i class="fa fa-copyright"></i> 2017 Sal Newell </p>
+   
+    </div>
+  </div>
+</footer>
+
+          <!-- scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.js"  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
-        <script src='js/main.js'></script>
+ <script src='js/main.js'></script>
     </body>
+
+
 
 </html>
