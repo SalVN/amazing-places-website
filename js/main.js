@@ -1,3 +1,12 @@
 $(document).ready(function () {
-$('.caption-image').css('border-style', 'red 10px');
+    $('.extra').hide();
+    $('.extra-link-button').click(function(){
+        $('.extra').show();
+        $('.extra-link-button-div').hide();
+    });
+    $('.less-link-button').click(function(){
+        $('.extra').hide();
+        $('.extra-link-button-div').show();
+    });
+
   });

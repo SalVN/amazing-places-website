@@ -135,6 +135,30 @@
     border-radius: 4px;
 }
 
+.extra-link-button {
+    background-color: darkcyan;
+    color: #f2efe8;
+    font-family: 'Amatic SC', helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+.less-link-button {
+    background-color: darkcyan;
+    color: #f2efe8;
+    font-family: 'Amatic SC', helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
 .page-footer {
     background-color: black !important;
     padding: 2rem;
@@ -238,4 +262,13 @@ padding-bottom: 2rem;
 .caption-link-button-div {
     text-align: center;
 }
+
+.extra-link-button-div {
+    text-align: center;
+}
+
+.less-link-button-div {
+    text-align: center;
+}
+
 
