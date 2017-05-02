@@ -1,8 +1,3 @@
 $(document).ready(function () {
-
-    $('.press').click(function () {
-        $(this).animate({top: '+=20px'}, 500);
-    });
-    $('li').hover(function () {
-    });
-});
+$('.caption-image').css('border-style', 'red 10px');
+  });
